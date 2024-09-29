@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+header {
+  min-height: 80px;
+  position: sticky;
+  top: 0%;
+  box-shadow: 0 2px 5px 1px rgba(64, 60, 67, 0.16);
+  background-color: white;
+}
+aside {
+  position: fixed;
+  top: 80px;
+  box-shadow: 0 2px 5px 1px rgba(64, 60, 67, 0.16);
+  width: 200px;
+  height: 100%;
+  background-color: white;
+}
+main {
+  min-height: 50%;
+  margin-left: 220px;
+  margin-right: 160px;
+}
+footer {
+  position: relative;
+  display: block;
+  height: 50px;
+  bottom: -810px;
+  background-color: white;
+}
+#right {
+  position: fixed;
+  top: 80px;
+
+  box-shadow: 0 2px 5px 1px rgba(64, 60, 67, 0.16);
+  width: 150px;
+  height: 100%;
+  right: 0px;
+  background-color: white;
+}
